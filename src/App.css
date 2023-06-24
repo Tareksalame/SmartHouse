@@ -1,0 +1,118 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.Title
+{
+  font-size: 60px;
+  font-family: 'Courier New', Courier, monospace;
+  margin-top: 5%;
+  color: steelblue;
+  font-weight: 900;
+  margin-bottom: 10%;
+}
+.selectRoomDiv
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.selectRoom
+{
+  height: 40px;
+  width: 150px;
+  margin-bottom: 5%;
+  border: rgb(0, 0, 136) solid 3px;
+  background-color:steelblue ;
+  color: white;
+  border-radius: 50px;
+  padding-left: 3%;
+}
+.roomInputs
+{
+  height: 40px;
+  width: 150px;
+  margin-bottom: 5%;
+  border: rgb(0, 0, 136) solid 3px;
+  background-color:white ;
+  color: steelblue;
+  border-radius: 50px;
+  padding-left: 3%;
+}
+.addRoom
+{
+  height: 60px;
+  width: 190px;
+  border-radius: 50px;
+  border: rgb(0, 0, 136) solid 3px;
+  background-color: steelblue;
+  color: white;
+  font-size: 20px;
+}
+.roomInfo
+{
+  font-size: 30px;
+  font-family: 'Courier New', Courier, monospace;
+  margin-top: 5%;
+  color: steelblue;
+  font-weight: 900;
+  margin-bottom: 5%;
+}
+.product
+{
+  height: 50px;
+  width: 190px;
+  font-size: 10px;
+  color: white;
+  border-radius: 30px;
+  align-items: center;
+  justify-content: center;
+  border: steelblue solid 3px;
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+.addRoomButton
+{
+  height: 60px;
+  width: 60px;
+  border-radius: 50px;
+  border: rgb(0, 0, 136) solid 3px;
+  background-color: steelblue;
+  color: white;
+  font-size: 40px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
